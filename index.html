@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ANTHIO — Natural Detox Drinks &amp; Wellness Subscription</title>
+<meta name="description" content="ANTHIO is a natural detox drink brand made from fresh fruits and functional ingredients. Build your own wellness box and subscribe to save.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAVIGATION ============ -->
+<header class="nav" id="nav">
+  <div class="nav__inner container">
+    <a href="#home" class="nav__brand">
+      <img src="logo.png" alt="ANTHIO" class="nav__logo" id="navLogo">
+      <span class="nav__wordmark" id="navWordmark">ANTHIO</span>
+    </a>
+
+    <nav class="nav__links" id="navLinks">
+      <a href="#shop">Flavors</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#build-box">Build Your Box</a>
+      <a href="#subscription">Subscription</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+
+    <div class="nav__actions">
+      <a href="#subscription" class="btn btn--primary btn--sm">Start Your Wellness Journey</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero__blob hero__blob--1" aria-hidden="true"></div>
+    <div class="hero__blob hero__blob--2" aria-hidden="true"></div>
+
+    <div class="container hero__grid">
+      <div class="hero__copy reveal">
+        <span class="eyebrow">Functional Detox Drinks</span>
+        <h1 class="hero__title">Your daily ritual for hydration, energy &amp; calm.</h1>
+        <p class="hero__text">
+          ANTHIO turns fresh fruits, vegetables and functional ingredients into
+          simple, natural drink sachets — built around how you actually want to feel.
+          No blender. No sugar crash. Just tear, pour, and go.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#subscription" class="btn btn--primary btn--lg">Start Your Wellness Journey</a>
+          <a href="#shop" class="btn btn--ghost btn--lg">Explore Flavors</a>
+        </div>
+
+        <ul class="hero__trust">
+          <li><span class="hero__trust-icon">🌿</span> Natural ingredients</li>
+          <li><span class="hero__trust-icon">📦</span> Delivered to your door</li>
+          <li><span class="hero__trust-icon">⭐</span> Loved by wellness-focused students &amp; professionals</li>
+        </ul>
+      </div>
+
+      <div class="hero__visual reveal">
+        <div class="hero__frame">
+          <img src="image-1.jpg" alt="ANTHIO detox drink sachets arranged with fresh fruit" class="hero__img">
+        </div>
+        <div class="hero__card hero__card--top">
+          <strong>30 sachets</strong>
+          <span>= one wellness ritual, every day</span>
+        </div>
+        <div class="hero__card hero__card--bottom">
+          <strong>Save up to 18%</strong>
+          <span>with the 6-month subscription</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHY ANTHIO ============ -->
+  <section class="why" id="why">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow eyebrow--dark">Why ANTHIO</span>
+        <h2>Wellness that actually fits your day</h2>
+        <p>Healthy shouldn't mean time-consuming. ANTHIO gives you the benefits of fresh, functional ingredients without the prep, the mess, or the sugar.</p>
+      </div>
+
+      <div class="why__grid">
+        <div class="why__card reveal">
+          <div class="why__icon" style="--accent:var(--blue)">💧</div>
+          <h3>Hydration</h3>
+          <p>Fruit and vegetable blends that help you stay refreshed and hydrated throughout the day.</p>
+        </div>
+        <div class="why__card reveal">
+          <div class="why__icon" style="--accent:var(--yellow)">⚡</div>
+          <h3>Antioxidants &amp; Immunity</h3>
+          <p>Vitamin-rich ingredients that support your immune system, naturally.</p>
+        </div>
+        <div class="why__card reveal">
+          <div class="why__icon" style="--accent:var(--deep-green)">🌙</div>
+          <h3>Calm &amp; Better Sleep</h3>
+          <p>Selected botanicals that ease everyday stress and support a more restful routine.</p>
+        </div>
+        <div class="why__card reveal">
+          <div class="why__icon" style="--accent:var(--green)">🎯</div>
+          <h3>Effortless Ritual</h3>
+          <p>One sachet, once a day. No blending, no measuring, no excuses.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FLAVORS / SHOP ============ -->
+  <section class="flavors" id="shop">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Five Ways To Feel Your Best</span>
+        <h2>Choose your ritual</h2>
+        <p>Every ANTHIO flavor is built around a specific wellness purpose — so you can mix, match and build a routine around how you want to feel.</p>
+      </div>
+
+      <div class="flavor-grid" id="flavorGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ HOW IT WORKS ============ -->
+  <section class="how" id="how-it-works">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow eyebrow--dark">How It Works</span>
+        <h2>From fridge to routine in four simple steps</h2>
+      </div>
+
+      <ol class="how__steps">
+        <li class="how__step reveal">
+          <span class="how__num">01</span>
+          <h3>Pick your focus</h3>
+          <p>Immune, Energy, Calm, Detox or Antioxidant — choose what your body needs.</p>
+        </li>
+        <li class="how__step reveal">
+          <span class="how__num">02</span>
+          <h3>Build your box</h3>
+          <p>Mix flavors freely in a 20 or 30-sachet box, made entirely your way.</p>
+        </li>
+        <li class="how__step reveal">
+          <span class="how__num">03</span>
+          <h3>Subscribe &amp; save</h3>
+          <p>Choose monthly, 3-month or 6-month delivery for the best price per sachet.</p>
+        </li>
+        <li class="how__step reveal">
+          <span class="how__num">04</span>
+          <h3>Delivered to you</h3>
+          <p>Your box arrives on schedule — pause, swap or cancel anytime.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ BUILD YOUR BOX ============ -->
+  <section class="builder" id="build-box">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Build Your ANTHIO Box</span>
+        <h2>5 benefits. 5 flavors. One daily ritual.</h2>
+        <p>Choose your box size, then pick how many sachets of each flavor you want. Totally personalized, totally yours.</p>
+      </div>
+
+      <div class="builder__panel reveal">
+        <div class="builder__size">
+          <span class="builder__label">1. Choose your box size</span>
+          <div class="size-toggle" id="sizeToggle" role="group" aria-label="Box size">
+            <button type="button" class="size-toggle__btn is-active" data-size="20">20 sachets</button>
+            <button type="button" class="size-toggle__btn" data-size="30">30 sachets</button>
+          </div>
+        </div>
+
+        <div class="builder__flavors">
+          <span class="builder__label">2. Choose your flavors</span>
+          <div class="builder__list" id="builderList"></div>
+        </div>
+
+        <div class="builder__summary">
+          <div class="builder__progress">
+            <div class="builder__progress-track">
+              <div class="builder__progress-fill" id="builderFill"></div>
+            </div>
+            <span id="builderCount">0 / 20 sachets selected</span>
+          </div>
+
+          <div class="builder__mix" id="builderMix" aria-live="polite"></div>
+
+          <button type="button" class="btn btn--primary btn--lg builder__cta" id="builderCta" disabled>
+            Subscribe &amp; Save
+          </button>
+          <p class="builder__hint" id="builderHint">Select sachets to complete your box.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRICING / SUBSCRIPTION ============ -->
+  <section class="pricing" id="subscription">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow eyebrow--dark">Subscription &amp; Pricing</span>
+        <h2>A plan for every stage of your routine</h2>
+        <p>Try ANTHIO with a one-time box, or commit to a subscription for the lowest price per sachet and a wellness habit that sticks.</p>
+      </div>
+
+      <div class="pricing__grid">
+        <article class="price-card reveal">
+          <h3>Starter Box</h3>
+          <p class="price-card__desc">10 sachets — 2 of every flavor. The easiest way to try ANTHIO.</p>
+          <div class="price-card__price">
+            <span class="price-card__amount">COP $39,900</span>
+            <span class="price-card__period">one-time</span>
+          </div>
+          <ul class="price-card__list">
+            <li>2 Immune · 2 Energy · 2 Calm</li>
+            <li>2 Detox · 2 Antioxidant</li>
+            <li>Free flavor guide included</li>
+          </ul>
+          <a href="#build-box" class="btn btn--outline">Build This Box</a>
+        </article>
+
+        <article class="price-card price-card--popular reveal">
+          <span class="price-card__badge">Best Seller</span>
+          <h3>Most Popular</h3>
+          <p class="price-card__desc">20 sachets, fully customizable across all five flavors.</p>
+          <div class="price-card__price">
+            <span class="price-card__amount">COP $69,900</span>
+            <span class="price-card__period">one-time</span>
+          </div>
+          <ul class="price-card__list">
+            <li>Choose your own mix of flavors</li>
+            <li>Enough for 3 weeks of daily rituals</li>
+            <li>Priority for new flavor drops</li>
+          </ul>
+          <a href="#build-box" class="btn btn--primary">Build This Box</a>
+        </article>
+
+        <article class="price-card price-card--sub reveal">
+          <span class="price-card__badge price-card__badge--alt">Best Value</span>
+          <h3>Wellness Subscription</h3>
+          <p class="price-card__desc">30 sachets every month — approximately one drink per day.</p>
+
+          <div class="sub-toggle" id="subToggle" role="group" aria-label="Subscription length">
+            <button type="button" class="sub-toggle__btn" data-plan="monthly">Monthly</button>
+            <button type="button" class="sub-toggle__btn is-active" data-plan="sixmonth">6-Month</button>
+          </div>
+
+          <div class="price-card__price">
+            <span class="price-card__amount" id="subPrice">COP $89,900</span>
+            <span class="price-card__period">/ month</span>
+          </div>
+          <p class="price-card__note" id="subNote">Billed across 6 months. Regular price is COP $109,900 — you save COP $20,000 every month.</p>
+
+          <ul class="price-card__list">
+            <li>Personalized 5-flavor mix</li>
+            <li>Lowest price per sachet</li>
+            <li>Pause, swap or cancel flexibility</li>
+          </ul>
+          <a href="#build-box" class="btn btn--primary">Start Subscription</a>
+        </article>
+      </div>
+
+      <p class="pricing__footnote">Individual sachets also available from COP $4,500. Prices shown are market-positioning estimates for this student project, not final retail pricing.</p>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Social Proof</span>
+        <h2>Real routines, real people</h2>
+      </div>
+
+      <div class="testimonial-carousel reveal">
+        <button type="button" class="carousel__btn carousel__btn--prev" id="prevTestimonial" aria-label="Previous testimonial">‹</button>
+
+        <div class="testimonial-track" id="testimonialTrack">
+          <blockquote class="testimonial">
+            <p>"Between classes and my part-time job, ANTHIO is the only 'healthy habit' that actually survived my schedule. The Calm sachet before bed is unreal."</p>
+            <cite>— Camila R., University Student</cite>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p>"I used to buy a sugary energy drink every morning. Now it's the Energy sachet with breakfast. Same lift, none of the crash."</p>
+            <cite>— Daniel M., Marketing Professional</cite>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p>"The build-your-box feature is what sold me. I run mostly Detox and Antioxidant with one Immune sachet thrown in — it's exactly my mix."</p>
+            <cite>— Laura T., Fitness Coach</cite>
+          </blockquote>
+        </div>
+
+        <button type="button" class="carousel__btn carousel__btn--next" id="nextTestimonial" aria-label="Next testimonial">›</button>
+      </div>
+
+      <div class="carousel__dots" id="testimonialDots"></div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow eyebrow--dark">FAQ</span>
+        <h2>Good to know</h2>
+      </div>
+
+      <div class="faq__list" id="faqList">
+        <div class="faq__item">
+          <button type="button" class="faq__question" aria-expanded="false">
+            What's inside each sachet?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>Each ANTHIO sachet is made from fresh fruits, vegetables and functional ingredients, dried and blended into a convenient powder — just add water, shake or stir, and drink.</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button type="button" class="faq__question" aria-expanded="false">
+            Can I mix flavors in one box?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>Yes. Use the Build Your Box tool to choose exactly how many sachets of each flavor you want, in any combination, for every box size.</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button type="button" class="faq__question" aria-expanded="false">
+            Can I pause or cancel my subscription?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>Absolutely. Subscriptions can be paused, adjusted or cancelled at any time from your account — no long-term lock-in beyond your selected billing cycle.</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button type="button" class="faq__question" aria-expanded="false">
+            How is ANTHIO different from regular juice or soda?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>ANTHIO is made with natural, functional ingredients and no added sugar found in typical soft drinks — each flavor is designed around a specific wellness purpose, not just taste.</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button type="button" class="faq__question" aria-expanded="false">
+            Is ANTHIO suitable for daily use?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>Yes — ANTHIO is designed as a daily ritual. Most customers enjoy one sachet per day as part of their morning or evening routine.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FINAL CTA ============ -->
+  <section class="final-cta">
+    <div class="final-cta__blob" aria-hidden="true"></div>
+    <div class="container final-cta__inner reveal">
+      <h2>Start your wellness journey today.</h2>
+      <p>Join a routine built around fresh ingredients, real flexibility, and how you actually want to feel.</p>
+      <a href="#build-box" class="btn btn--primary btn--lg">Start Your Wellness Journey</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <span class="footer__wordmark">ANTHIO</span>
+      <p>Natural detox drinks for a daily ritual of hydration, energy and calm.</p>
+
+      <form class="newsletter" id="newsletterForm" novalidate>
+        <label for="newsletterEmail" class="newsletter__label">Get 10% off your first box</label>
+        <div class="newsletter__row">
+          <input type="email" id="newsletterEmail" placeholder="you@example.com" required>
+          <button type="submit" class="btn btn--primary btn--sm">Subscribe</button>
+        </div>
+        <p class="newsletter__msg" id="newsletterMsg" aria-live="polite"></p>
+      </form>
+    </div>
+
+    <div class="footer__col">
+      <h4>Shop</h4>
+      <a href="#shop">Flavors</a>
+      <a href="#build-box">Build Your Box</a>
+      <a href="#subscription">Subscription</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>Company</h4>
+      <a href="#why">Why ANTHIO</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#faq">FAQ</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>Support</h4>
+      <a href="#faq">Shipping &amp; Delivery</a>
+      <a href="#faq">Manage Subscription</a>
+      <a href="#footerContact">Contact</a>
+    </div>
+  </div>
+
+  <div class="container footer__bottom" id="footerContact">
+    <p>© 2026 ANTHIO. Student e-business project — prototype for educational purposes.</p>
+    <div class="footer__social" aria-label="Social media links">
+      <a href="#" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 2c2.7 0 3 .01 4.1.06 1.1.05 1.85.22 2.5.48.68.26 1.25.62 1.82 1.18.56.57.92 1.14 1.18 1.82.26.65.43 1.4.48 2.5.05 1.1.06 1.4.06 4.1s-.01 3-.06 4.1c-.05 1.1-.22 1.85-.48 2.5a4.9 4.9 0 0 1-1.18 1.82 4.9 4.9 0 0 1-1.82 1.18c-.65.26-1.4.43-2.5.48-1.1.05-1.4.06-4.1.06s-3-.01-4.1-.06c-1.1-.05-1.85-.22-2.5-.48a4.9 4.9 0 0 1-1.82-1.18 4.9 4.9 0 0 1-1.18-1.82c-.26-.65-.43-1.4-.48-2.5C2.01 15 2 14.7 2 12s.01-3 .06-4.1c.05-1.1.22-1.85.48-2.5.26-.68.62-1.25 1.18-1.82A4.9 4.9 0 0 1 5.54.6c.65-.26 1.4-.43 2.5-.48C9.14.07 9.4.06 12 .06M12 5.84A6.16 6.16 0 1 0 12 18.16 6.16 6.16 0 0 0 12 5.84m0 2.16a4 4 0 1 1 0 8 4 4 0 0 1 0-8m6.4-3.4a1.44 1.44 0 1 1 0 2.88 1.44 1.44 0 0 1 0-2.88"/></svg>
+      </a>
+      <a href="#" aria-label="TikTok">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M16.6 2h-3.2v13.2a2.8 2.8 0 1 1-2-2.68V9.2a6 6 0 1 0 5.2 5.94V8.4a7.6 7.6 0 0 0 4.4 1.4V6.6a4.4 4.4 0 0 1-4.4-4.4z"/></svg>
+      </a>
+      <a href="#" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M13.5 21v-8h2.7l.4-3.1h-3.1V8c0-.9.25-1.5 1.55-1.5H16.7V3.7c-.3-.04-1.3-.13-2.4-.13-2.4 0-4 1.46-4 4.15V10H7.6v3.1h2.7v8z"/></svg>
+      </a>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ FLAVOR MODAL ============ -->
+<div class="modal" id="flavorModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal__backdrop" id="modalBackdrop"></div>
+  <div class="modal__panel">
+    <button type="button" class="modal__close" id="modalClose" aria-label="Close">×</button>
+    <div class="modal__accent" id="modalAccent"></div>
+    <span class="modal__tag" id="modalTag"></span>
+    <h3 id="modalTitle"></h3>
+    <p class="modal__tagline" id="modalTagline"></p>
+    <p id="modalDesc"></p>
+    <h4>Key Ingredients</h4>
+    <ul class="modal__ingredients" id="modalIngredients"></ul>
+    <button type="button" class="btn btn--primary" id="modalAddBtn">Add To My Box</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
